@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E20DAC02C29B43F0095B2F0 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20DABF2C29B43F0095B2F0 /* Participant.swift */; };
+		2E20DAC22C29B8E50095B2F0 /* AddParticipantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20DAC12C29B8E50095B2F0 /* AddParticipantViewController.swift */; };
+		2E20DAC42C29DB9F0095B2F0 /* ParticipantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20DAC32C29DB9F0095B2F0 /* ParticipantTableViewCell.swift */; };
+		2E7912C52C273E6000573686 /* Classroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7912C42C273E6000573686 /* Classroom.swift */; };
+		2E7912C82C273F5E00573686 /* ClassroomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7912C72C273F5E00573686 /* ClassroomTableViewCell.swift */; };
 		2E8EBA9D2C26544000FCBA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EBA9C2C26544000FCBA82 /* AppDelegate.swift */; };
 		2E8EBA9F2C26544000FCBA82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EBA9E2C26544000FCBA82 /* SceneDelegate.swift */; };
-		2E8EBAA12C26544000FCBA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EBAA02C26544000FCBA82 /* ViewController.swift */; };
-		2E8EBAA42C26544000FCBA82 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2E8EBAA32C26544000FCBA82 /* Base */; };
 		2E8EBAA62C26544100FCBA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8EBAA52C26544100FCBA82 /* Assets.xcassets */; };
 		2E8EBAA92C26544100FCBA82 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2E8EBAA82C26544100FCBA82 /* Base */; };
+		2E8EBAB22C26558F00FCBA82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EBAB12C26558F00FCBA82 /* HomeViewController.swift */; };
+		2E8EBAB42C266FCF00FCBA82 /* NewClassroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EBAB32C266FCF00FCBA82 /* NewClassroomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E20DABF2C29B43F0095B2F0 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		2E20DAC12C29B8E50095B2F0 /* AddParticipantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParticipantViewController.swift; sourceTree = "<group>"; };
+		2E20DAC32C29DB9F0095B2F0 /* ParticipantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantTableViewCell.swift; sourceTree = "<group>"; };
+		2E7912C42C273E6000573686 /* Classroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classroom.swift; sourceTree = "<group>"; };
+		2E7912C72C273F5E00573686 /* ClassroomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomTableViewCell.swift; sourceTree = "<group>"; };
 		2E8EBA992C26544000FCBA82 /* Ignite Teams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ignite Teams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8EBA9C2C26544000FCBA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E8EBA9E2C26544000FCBA82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E8EBAA02C26544000FCBA82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E8EBAA32C26544000FCBA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E8EBAA52C26544100FCBA82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E8EBAA82C26544100FCBA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E8EBAAA2C26544100FCBA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8EBAB12C26558F00FCBA82 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E8EBAB32C266FCF00FCBA82 /* NewClassroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClassroomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E7912C32C273E4900573686 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E7912C42C273E6000573686 /* Classroom.swift */,
+				2E20DABF2C29B43F0095B2F0 /* Participant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E7912C62C273F2500573686 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2E7912C72C273F5E00573686 /* ClassroomTableViewCell.swift */,
+				2E20DAC32C29DB9F0095B2F0 /* ParticipantTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		2E8EBA902C26544000FCBA82 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +84,26 @@
 		2E8EBA9B2C26544000FCBA82 /* Ignite Teams */ = {
 			isa = PBXGroup;
 			children = (
+				2E7912C62C273F2500573686 /* Cells */,
+				2E7912C32C273E4900573686 /* Models */,
+				2E8EBAB02C26557C00FCBA82 /* ViewControllers */,
 				2E8EBA9C2C26544000FCBA82 /* AppDelegate.swift */,
 				2E8EBA9E2C26544000FCBA82 /* SceneDelegate.swift */,
-				2E8EBAA02C26544000FCBA82 /* ViewController.swift */,
-				2E8EBAA22C26544000FCBA82 /* Main.storyboard */,
 				2E8EBAA52C26544100FCBA82 /* Assets.xcassets */,
 				2E8EBAA72C26544100FCBA82 /* LaunchScreen.storyboard */,
 				2E8EBAAA2C26544100FCBA82 /* Info.plist */,
 			);
 			path = "Ignite Teams";
+			sourceTree = "<group>";
+		};
+		2E8EBAB02C26557C00FCBA82 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E8EBAB12C26558F00FCBA82 /* HomeViewController.swift */,
+				2E8EBAB32C266FCF00FCBA82 /* NewClassroomViewController.swift */,
+				2E20DAC12C29B8E50095B2F0 /* AddParticipantViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +166,6 @@
 			files = (
 				2E8EBAA62C26544100FCBA82 /* Assets.xcassets in Resources */,
 				2E8EBAA92C26544100FCBA82 /* Base in Resources */,
-				2E8EBAA42C26544000FCBA82 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +176,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E8EBAA12C26544000FCBA82 /* ViewController.swift in Sources */,
+				2E7912C52C273E6000573686 /* Classroom.swift in Sources */,
 				2E8EBA9D2C26544000FCBA82 /* AppDelegate.swift in Sources */,
 				2E8EBA9F2C26544000FCBA82 /* SceneDelegate.swift in Sources */,
+				2E20DAC02C29B43F0095B2F0 /* Participant.swift in Sources */,
+				2E20DAC22C29B8E50095B2F0 /* AddParticipantViewController.swift in Sources */,
+				2E20DAC42C29DB9F0095B2F0 /* ParticipantTableViewCell.swift in Sources */,
+				2E7912C82C273F5E00573686 /* ClassroomTableViewCell.swift in Sources */,
+				2E8EBAB42C266FCF00FCBA82 /* NewClassroomViewController.swift in Sources */,
+				2E8EBAB22C26558F00FCBA82 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2E8EBAA22C26544000FCBA82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E8EBAA32C26544000FCBA82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E8EBAA72C26544100FCBA82 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +333,6 @@
 				INFOPLIST_FILE = "Ignite Teams/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +360,6 @@
 				INFOPLIST_FILE = "Ignite Teams/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
